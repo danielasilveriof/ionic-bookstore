@@ -12,6 +12,34 @@ import { Genero } from '../genero.enum';
 export class AutoresCadastroComponent implements OnInit {
 
   autor: Autor;
+  mesesAbreviados = [
+    'Jan',
+    'Fev',
+    'Mar',
+    'Abr',
+    'Mai',
+    'Jun',
+    'Jul',
+    'Ago',
+    'Set',
+    'Out',
+    'Nov',
+    'Dez',
+  ];
+  meses= [
+    'Janeiro',
+    'Fevereiro',
+    'Março',
+    'Abril',
+    'Maio',
+    'Junho',
+    'Julho',
+    'Agosto',
+    'Setembro',
+    'Outubro',
+    'Novembro',
+    'Dezembro',
+  ];
   constructor(
     private ActivatedRoute: ActivatedRoute,
     private autorService : AutorService,
