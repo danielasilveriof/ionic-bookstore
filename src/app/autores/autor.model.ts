@@ -1,6 +1,6 @@
 import { Genero } from "./genero.enum";
 
-export class Autor {
+export interface Autor {
     id?:number;
     nome: string;
     dataNascimento: Date;
