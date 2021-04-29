@@ -1,0 +1,16 @@
+{
+  "autores": [
+    {
+      "nome": "Rafael",
+      "dataNascimento": "1980-02-02",
+      "genero": "M",
+      "id": 1
+    },
+    {
+      "nome": "Daniela s",
+      "dataNascimento": "1990-03-26T20:48:01.048-03:00",
+      "genero": "F",
+      "id": 2
+    }
+  ]
+}
